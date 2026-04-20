@@ -1,0 +1,6 @@
+edgar_bulk/
+edgar_bulk_unzipped/
+*.zip
+*.tsv
+*.txt
+.env
