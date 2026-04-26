@@ -1,22 +1,8 @@
-# SEC EDGAR Financial Data Pipeline and Stock Analysis 
-
+# SEC EDGAR Financial Data Pipeline 
 ## Overview
 
-ETL pipeline that bulk downloads 10 years (1.82GB) of SEC EDGAR zip file data from 2014Q1 to 2023Q3. Data is uploaded onto the host, then unzipped into a new folder and filtered before going into MySQL. The data is taken from MySQL and put back into Python to perform business calculations, finding spikes in R&D spending across 4570 companies. The spikes are found by taking the average amount spent on R&D over three quarters. If they spent more, the date that they spent more and the percentage increase over the average are stored and delivered. 
+ETL pipeline that bulk downloads 10 years (1.82GB) of SEC EDGAR zip file data from 2014Q1 to 2023Q3. Data is uploaded onto the host, then unzipped into a new folder and filtered before going into MySQL. 
 
-##Thesis for Stock Analysis
-
-1. Revenue is stable or growing. 
-
-2. Net income dropped because of R&D
-
-3. R&D is unusual—it spiked significantly. 
-
-4. Stock movement after the filing 
-
-5. PE is reasonable.
-
-As of right now I have completed step three. 
 
 ## Data Source
 
