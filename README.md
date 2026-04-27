@@ -1,7 +1,7 @@
 # SEC EDGAR Financial Data Pipeline 
 ## Overview
 
-ETL pipeline that bulk downloads 10 years (1.82GB) of SEC EDGAR zip file data from 2014Q1 to 2023Q3. Data is uploaded onto the host, then unzipped into a new folder and filtered before going into MySQL. 
+ETL pipeline that bulk downloads 10 years (1.82GB) of SEC EDGAR zip file data from 2014Q1 to 2023Q3. Data is extracted locally and loaded into MySQL, then unzipped into a new folder and filtered before going into MySQL. 
 
 
 ## Data Source
